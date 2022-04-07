@@ -30,6 +30,5 @@ jobs:
       run: |
         echo 'Mais um teste durante live no Microsoft Reactor'
         dotnet --list-sdks
-        cat 'README.md'
     - name: Segundo step
       run: echo 'Segundo setp'
