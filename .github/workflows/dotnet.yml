@@ -19,3 +19,15 @@ jobs:
         echo 'Live no Microsoft Reactor'
         dotnet --list-sdks
         cat 'README.md'
+
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Rodar scripts
+      run: |
+        echo 'Mais um teste durante live no Microsoft Reactor'
+        dotnet --list-sdks
+        cat 'README.md'
+    - name: Segundo step
+      run: echo 'Segundo setp'
