@@ -15,4 +15,7 @@ jobs:
     - name: Fazer checkout dos arquivos
       uses: actions/checkout@v3
     - name: Rodar scripts
-      run: echo 'Live no Microsoft Reactor'
+      run: |
+        echo 'Live no Microsoft Reactor'
+        dotnet --list-sdks
+        cat 'README.md'
